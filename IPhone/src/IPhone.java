@@ -20,7 +20,7 @@ public class IPhone implements Spotify, Google, Telefone {
         }
 
         public void Correiodevoz(){
-            System.out.println("Mandando audio para"+numero);
+            System.out.println("Mandando audio para "+numero);
         }
 
         System.out.println(" ");
@@ -31,7 +31,7 @@ public class IPhone implements Spotify, Google, Telefone {
         }
 
         public void tocarMusica(){
-            System.out.println("Play"+musica);
+            System.out.println("Play "+musica);
         }
 
         public void pausarMusica(){
